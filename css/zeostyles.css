@@ -11,10 +11,10 @@ ul {
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 18px;
   text-decoration: sans-serif;
   font-size: 17px;
 }
@@ -26,7 +26,7 @@ ul {
 
 .topnav a.active {
   background-color: #04AA6D;
-  color: white;
+  color: gray;
 }
 
 .h1 {
