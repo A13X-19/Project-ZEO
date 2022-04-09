@@ -28,20 +28,20 @@ header {
   margin-right: auto;
 }
 
-.topnav {
+nav.primary-navbar {
   list-style: none;
 }
 
-.topnav li {
+nav.primary-navbar li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.topnav li a {
+nav.primary-navbar li a {
   transition: all 0.3s ease 0s;
 }
 
-.topnav li a:hover {
+nav.primary-navbar li a:hover {
   color: #0088a9;
 }
 
