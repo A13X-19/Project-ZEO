@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,8 +9,8 @@
 
 
 li, a, button {
-  font-family: sans-serif;
-  font-weight: 500;
+  font-family: "Stick No Bills", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
@@ -54,18 +56,4 @@ button {
 
 button:hover {
   background-color: rgba(0, 136, 169,0.8);
-}
-
-
-
-
-.Description1 {
-  border:  1px solid red;
-  float: left;
-  text-align: left;
-  width: 50;
-}
-
-.Description2 {
-  display: flex;
 }
