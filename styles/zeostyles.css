@@ -45,6 +45,10 @@ nav.primary-navbar li a:hover {
   color: #0088a9;
 }
 
+.h1 {
+  text-align: center;
+}
+
 button {
   margin-left: 20px;
   padding: 9px 25px;
