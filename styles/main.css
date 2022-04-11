@@ -29,6 +29,11 @@ hr {
   /* 2 */
 }
 
+nav {
+  background-color: maroon;
+  font-size: 1.5em;
+}
+
 pre {
   font-family: "Dosis", monospace;
   /* 1 */
@@ -59,9 +64,7 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
-  /* 1 */
   font-size: 1em;
-  /* 2 */
 }
 
 small {
@@ -94,24 +97,18 @@ optgroup,
 select,
 textarea {
   font-family: inherit;
-  /* 1 */
   font-size: 100%;
-  /* 1 */
   line-height: 1.15;
-  /* 1 */
   margin: 0;
-  /* 2 */
 }
 
 button,
 input {
-  /* 1 */
   overflow: visible;
 }
 
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
@@ -144,17 +141,11 @@ fieldset {
 legend {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /* 1 */
   color: inherit;
-  /* 2 */
   display: table;
-  /* 1 */
   max-width: 100%;
-  /* 1 */
   padding: 0;
-  /* 3 */
   white-space: normal;
-  /* 1 */
 }
 
 progress {
@@ -169,9 +160,7 @@ textarea {
 [type="radio"] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /* 1 */
   padding: 0;
-  /* 2 */
 }
 
 [type="number"]::-webkit-inner-spin-button,
@@ -181,9 +170,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield;
-  /* 1 */
   outline-offset: -2px;
-  /* 2 */
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -192,9 +179,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  /* 1 */
   font: inherit;
-  /* 2 */
 }
 
 details {
@@ -223,12 +208,12 @@ body {
   }
 }
 
-.column {
+div.column {
   float: left;
   width: 50%;
 }
 
-.row {
+div.row {
   content: "";
   display: table;
   clear: both;
