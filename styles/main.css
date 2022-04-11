@@ -30,7 +30,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: "Dosis", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -221,10 +221,6 @@ body {
   body {
     background-color: whitesmoke;
   }
-}
-
-{
-  box-sizing: border-box;
 }
 
 .column {
