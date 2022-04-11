@@ -16,6 +16,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  text-align: center;
 }
 
 hr {
@@ -210,5 +211,30 @@ template {
 
 [hidden] {
   display: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: whitesmoke;
+  }
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
 }
 /*# sourceMappingURL=main.css.map */
