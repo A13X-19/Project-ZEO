@@ -1,8 +1,6 @@
 html {
   line-height: 1.15;
-  /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
 }
 
 body {
@@ -22,11 +20,8 @@ h1 {
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  /* 1 */
   height: 0;
-  /* 1 */
   overflow: visible;
-  /* 2 */
 }
 
 nav {
@@ -36,9 +31,7 @@ nav {
 
 pre {
   font-family: "Dosis", monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-size: 2em;
 }
 
 a {
@@ -46,8 +39,7 @@ a {
 }
 
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
+  border-bottom: 1;
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
@@ -198,10 +190,6 @@ template {
   display: none;
 }
 
-body {
-  background-color: whitesmoke;
-}
-
 @media (min-width: 1024px) {
   body {
     background-color: whitesmoke;
@@ -217,5 +205,9 @@ div.row {
   content: "";
   display: table;
   clear: both;
+}
+
+footer {
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=main.css.map */
