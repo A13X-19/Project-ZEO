@@ -6,3 +6,19 @@ CSS font-family: 'Dosis', sans-serif
 
 <style> @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Marck+Script&family=Montserrat:wght@300;700&display=swap')</style>
 CSS font-family: 'Marck Script', cursive
+
+$heading_primary_font: 'Montserrat', sans-serif;
+
+$heading_secondary_font: 'Marck Script', cursive;
+
+$heading_tertiary_font: 'Roboto', sans-serif;
+
+h1 {
+    @include font_type($heading_primary_font, white, 24px);
+  }
+  h2 {
+    @include font_type($heading_secondary_font, $secondary-color, 18px);
+  }
+  h3 {
+    @include font_type($heading_tertiary_font, white, 10px);
+  }

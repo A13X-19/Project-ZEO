@@ -3,8 +3,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+
 body {
   margin: 0;
+  background-color: lightgray;
 }
 
 main {
@@ -15,6 +17,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
   text-align: center;
+  position: relative;
 }
 
 hr {
@@ -25,8 +28,11 @@ hr {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
   background-color: maroon;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  text-align: right;
 }
 
 pre {
@@ -81,6 +87,7 @@ sup {
 
 img {
   border-style: none;
+  height: auto;
 }
 
 button,
@@ -192,13 +199,29 @@ template {
 
 @media (min-width: 1024px) {
   body {
-    background-color: whitesmoke;
+    background-color: lightgray;
   }
-}
 
 div.column {
-  float: left;
+  position: absolute;
+  top: 390px;  
   width: 50%;
+  border-radius: 20px;
+}
+
+div.column2 {
+  position: fixed;
+  float: left bottom;
+  width: 40%;
+  text-align: center;
+  background-color: #9A4C4C;
+  border-radius: 25px;
+}
+
+div.column3 {
+  position: fixed;
+  right: 260px;
+  top: 190px;
 }
 
 div.row {
@@ -207,7 +230,33 @@ div.row {
   clear: both;
 }
 
-footer {
-  font-size: 1.2em;
+div..animate__animated.infinite__bounceInDown {
+  --animate-duration: 2s;
 }
-/*# sourceMappingURL=main.css.map */
+
+.btn-menu {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  border: 1px solid red;
+  color: #414141;
+  background-color: red;
+  float: right;
+  transition: transform 3s;
+  transform: translateX(-90px);
+  transform: translateY(-170px);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
